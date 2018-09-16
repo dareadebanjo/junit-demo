@@ -5,32 +5,32 @@ import junit.framework.TestCase;
 public class ArithmeticSolverTest extends TestCase {
 
 	public void testAdd(){
-		ArithmethicSolver solver = new ArithmeticSolverTest();
+		ArithmeticSolver solver = new ArithmeticSolver();
 		
-		assertEquals(4, solver.add(2,2));
+		assertEquals(4.0, solver.add(2,2));
 	}
 	
 	public void testSubtract() {
-		ArithmethicSolver solver = new ArithmeticSolverTest();
+		ArithmeticSolver solver = new ArithmeticSolver();
 		
-		assertEquals(2, solver.subtract(4,2));
+		assertEquals(2.0, solver.subtract(4,2));
 	}
 	
 	public void testMultiply() {
-		ArithmethicSolver solver = new ArithmeticSolverTest();
+		ArithmeticSolver solver = new ArithmeticSolver();
 		
-		assertEquals(15, solver.multiply(3,5));
+		assertEquals(15.0, solver.multiply(3,5));
 	}
 	
 	public void testDivide() {
-		ArithmethicSolver solver = new ArithmeticSolverTest();
+		ArithmeticSolver solver = new ArithmeticSolver();
 		
-		assertEquals(3, solver.divide(6,2));
+		assertEquals(3.0, solver.divide(6,2));
 	}
 	
 	public void testModulus() {
-		ArithmethicSolver solver = new ArithmeticSolverTest();
+		ArithmeticSolver solver = new ArithmeticSolver();
 		
-		assertEquals(1, solver.modulus(5,2));
+		assertEquals(1.0, solver.modulus(5,2));
 	}
 }
